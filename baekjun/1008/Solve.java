@@ -7,6 +7,5 @@ public class Solve {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String [] inputs = br.readLine().split(" ");
         System.out.println(Double.valueOf(inputs[0]) / Double.valueOf(inputs[1]));
-
     }
 }
